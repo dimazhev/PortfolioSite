@@ -27,18 +27,6 @@ $(document).ready(function () {
         once: true
     });
 
-    $(document).ready(function(){
-        $('.submit').click(function(event){
-            event.preventDefault()
-            console.log('clicked button')
-
-            var email= $('.name').val()
-            var email= $('.email').val()
-            var email= $('.services').val()
-            var email= $('.subject').val()
-
-            
-        })
-    })
+    
 
 });
